@@ -43,64 +43,85 @@
 			<figure>
 				<img src="img/believe-7.jpg" alt="" width="100%" height="100%" class="w-100 h-100 obj-fit-cover" >
 			</figure>
-		</article>
-        <article style="margin-top: -5%; ">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 155.33"><defs><style>.cls-1{fill:#0381cb;}.cls-2{fill:#0574bb;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M1920,144.32s-707.77,11.49-944,11c-243.77-.51-976-15-976-15V59.55S224.64-78.61,1134.34,66c463.13,50.19,664.81,60.62,785.66,70.46Z"/><path class="cls-2" d="M0,155.32H1920V74.55S1695.36-63.61,785.66,81C322.53,131.15,120.85,130.47,0,140.32Z"/></g></g></svg>
-        </article>
-        
+		</article>        
 	</header>
 
+    <!-- SECCION DE NOSOTROS -->
     <section class="Abouts">
         <article class="container-xxl text-white">
-            <p>
-                Somos una Agencia de Viajes con más de 10 años de experiencia. Brindamos atención personalizada en las reservas de boletos aéreos, hoteles, renta de autos, vacaciones al Caribe, Europa y dentro de Estados Unidos.
-            </p>
+            <div class="Abouts-text">
+                <p>Somos una Agencia de Viajes con más de 10 años de experiencia. Brindamos atención personalizada en las reservas de boletos aéreos, hoteles, renta de autos, vacaciones al Caribe, Europa y dentro de Estados Unidos.</p>
+            </div>
         </article>
     </section>
 
+    <!-- SECCION DE CATEGORIA -->
 	<section class="categori">
+        <!-- SVG  POLIGONO SUPERIOR UNIDO CON ABOUTS-->
         <article class="categori-svg-top"></article>
+
         <article class="container-xxl">
-            <div class="categories owl-carousel">
-                <div class="category-items">
-                    <figure>
-                        <img src="img/services/hoteles.jpg" alt="" class="w-100 h-100">
-                    </figure>
+            <div class="row">
+                <div class="col-md-7 px-5">
+                    <div class="categories owl-carousel">
+                        <div class="category-items">
+                            <figure>
+                                <img src="img/services/hoteles.jpg" alt="" class="w-100 h-100">
+                            </figure>
+                        </div>
+                        <div class="category-items">
+                            <figure>
+                                <img src="img/services/pasaporte.jpg" alt="" class="w-100 h-100">
+                            </figure>
+                        </div>
+                        <div class="category-items">
+                            <figure>
+                                <img src="img/services/renta-car.jpg" alt="" class="w-100 h-100">
+                            </figure>
+                        </div>
+                        <div class="category-items">
+                            <figure>
+                                <img src="img/services/vacaciones.jpg" alt="" class="w-100 h-100">
+                            </figure>
+                        </div>
+                        <div class="category-items">
+                            <figure>
+                                <img src="img/services/vuelos.jpg" alt="" class="w-100 h-100">
+                            </figure>
+                        </div>
+                        <div class="category-items">
+                            <figure>
+                                <img src="img/services/cruceros.jpg" alt="" class="w-100 h-100">
+                            </figure>
+                        </div>
+                    </div>
                 </div>
-                <div class="category-items">
-                    <figure>
-                        <img src="img/services/pasaporte.jpg" alt="" class="w-100 h-100">
-                    </figure>
-                </div>
-                <div class="category-items">
-                    <figure>
-                        <img src="img/services/renta-car.jpg" alt="" class="w-100 h-100">
-                    </figure>
-                </div>
-                <div class="category-items">
-                    <figure>
-                        <img src="img/services/vacaciones.jpg" alt="" class="w-100 h-100">
-                    </figure>
-                </div>
-                <div class="category-items">
-                    <figure>
-                        <img src="img/services/vuelos.jpg" alt="" class="w-100 h-100">
-                    </figure>
-                </div>
-                <div class="category-items">
-                    <figure>
-                        <img src="img/services/cruceros.jpg" alt="" class="w-100 h-100">
-                    </figure>
-                </div>
+                <div class="col-md-5">
+                    <div class="categori-title">
+                        <span>Servicios</span>
+                    </div>
+                    <div class="categori-text">
+                        <ul>
+                            <li>Las Mejores opciones para tus vacaciones</li>
+                            <li>Gestionamos tus Tramites</li>
+                            <li>Servicios de Primera Calidad</li>
+                            <li>Disfruta con tranquilidad</li>
+                        </ul>
+                    </div>
+                </div>    
             </div>
         </article>
+        
+        <!-- SVG POLIGONO POSTERIOR UNIDO CON OFERTAS -->
         <article class="categori-svg-bottom"></article>
     </section>
 
+    <!-- SECCION DE MEJORES OFERTAS -->
 	<section class="bestOffers">
         <article class="container-xxl">
             <div class="bestOffers-title">
-                <span>Best Offers</span>
+                <span>Ofertas</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Consequuntur ea alias accusamus fugiat, quae error et ipsum autem iusto facilis?</p>
             </div>
             <div class="offers owl-carousel">
                 <div class="offers-items">
@@ -109,16 +130,21 @@
                     </figure>
                     <div class="offers-data">
                         <div class="offers-data-title">
-                            <h2>Title</h2>
+                            <h2>Australia</h2>
                         </div>
                         <div class="offers-data-details">
-                            <ul>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                            </ul>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h5>Sydney</h5>
+                                </div>
+                                <ul>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                </ul>
+                            </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Ipsa ad debitis veniam nostrum natus inventore.</p>
                             <div class="offers-data-action">
                                 <span>$550</span>
@@ -133,16 +159,21 @@
                     </figure>
                     <div class="offers-data">
                         <div class="offers-data-title">
-                            <h2>Title</h2>
+                            <h2>Turkia</h2>
                         </div>
                         <div class="offers-data-details">
-                            <ul>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                            </ul>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h5>Estambul</h5>
+                                </div>
+                                <ul>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                </ul>
+                            </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illo, soluta vitae omnis, maxime fuga?</p>
                             <div class="offers-data-action">
                                 <span>$550</span>
@@ -157,16 +188,21 @@
                     </figure>
                     <div class="offers-data">
                         <div class="offers-data-title">
-                            <h2>Title</h2>
+                            <h2>Argentina</h2>
                         </div>
                         <div class="offers-data-details">
-                            <ul>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                            </ul>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h5>Buenos Aires</h5>
+                                </div>
+                                <ul>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                </ul>
+                            </div>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Sint non maiores autem nostrum unde est?</p>
                             <div class="offers-data-action">
                                 <span>$550</span>
@@ -181,16 +217,21 @@
                     </figure>
                     <div class="offers-data">
                         <div class="offers-data-title">
-                            <h2>Title</h2>
+                            <h2>China</h2>
                         </div>
                         <div class="offers-data-details">
-                            <ul>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                            </ul>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h5>Hong Kong</h5>
+                                </div>
+                                <ul>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                </ul>
+                            </div>
                             <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Voluptatum ea nostrum totam, quasi laborum molestiae.</p>
                             <div class="offers-data-action">
                                 <span>$550</span>
@@ -205,16 +246,21 @@
                     </figure>
                     <div class="offers-data">
                         <div class="offers-data-title">
-                            <h2>Title</h2>
+                            <h2>Estados Unidos</h2>
                         </div>
                         <div class="offers-data-details">
-                            <ul>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                            </ul>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h5>Las Vegas</h5>
+                                </div>
+                                <ul>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                </ul>
+                            </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo alias vel cumque, eveniet, dignissimos architecto?</p>
                             <div class="offers-data-action">
                                 <span>$550</span>
@@ -229,16 +275,21 @@
                     </figure>
                     <div class="offers-data">
                         <div class="offers-data-title">
-                            <h2>Title</h2>
+                            <h2>Estados Unidos</h2>
                         </div>
                         <div class="offers-data-details">
-                            <ul>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                            </ul>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h5>New York</h5>
+                                </div>
+                                <ul>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                </ul>
+                            </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium minima, nihil dicta cum nobis eum.</p>
                             <div class="offers-data-action">
                                 <span>$550</span>
@@ -253,16 +304,21 @@
                     </figure>
                     <div class="offers-data">
                         <div class="offers-data-title">
-                            <h2>Title</h2>
+                            <h2>Francia</h2>
                         </div>
                         <div class="offers-data-details">
-                            <ul>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                                <li><i class="bi bi-star-fill"></i></li>
-                            </ul>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h5>Paris</h5>
+                                </div>
+                                <ul>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                </ul>
+                            </div>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, libero. Ipsa quos, rem itaque odio!</p>
                             <div class="offers-data-action">
                                 <span>$550</span>
@@ -273,6 +329,8 @@
                 </div>
             </div>
         </article>
+
+        <!-- SVG ONDAS POSTERIOR UNIDO CON DESTINOS -->
         <article>
             <svg style="margin-top:-30px" viewBox="0 0 1440 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -283,6 +341,7 @@
         </article>
     </section>
 
+    <!-- SECCION DE DESTINOS -->
 	<section class="Destiny">
 		<article class="container-xxl py-3">
 			<div class="row">
@@ -318,6 +377,7 @@
 		</article>
 	</section>
 	
+    <!-- SECCION DE GALERIA -->
     <section class="galery">
         <article class="container-xxl">
             <div class="row">
@@ -383,12 +443,15 @@
         </article>
     </section>
 
+    <!-- SECCION DE TESTIMONIOS DESDE FACEBOOK -->
     <section class="comentarios">
+        <!-- SVG ONDAS SUPERIORES UNIDO CON GALERIA-->
         <article class="comentarios-svg-top">
             <svg viewBox="0 0 1440 200" style="transform:rotate(180deg); margin-top:-10px">
                 <defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="#0574bb" offset="0%"></stop><stop stop-color="#f4f4f4" offset="100%"></stop></linearGradient></defs><path fill="url(#sw-gradient-0)" d="M0,100L60,96.7C120,93,240,87,360,83.3C480,80,600,80,720,70C840,60,960,40,1080,33.3C1200,27,1320,33,1440,40C1560,47,1680,53,1800,66.7C1920,80,2040,100,2160,120C2280,140,2400,160,2520,146.7C2640,133,2760,87,2880,83.3C3000,80,3120,120,3240,120C3360,120,3480,80,3600,60C3720,40,3840,40,3960,50C4080,60,4200,80,4320,80C4440,80,4560,60,4680,73.3C4800,87,4920,133,5040,143.3C5160,153,5280,127,5400,96.7C5520,67,5640,33,5760,33.3C5880,33,6000,67,6120,66.7C6240,67,6360,33,6480,40C6600,47,6720,93,6840,106.7C6960,120,7080,100,7200,106.7C7320,113,7440,147,7560,163.3C7680,180,7800,180,7920,180C8040,180,8160,180,8280,160C8400,140,8520,100,8580,80L8640,60L8640,200L8580,200C8520,200,8400,200,8280,200C8160,200,8040,200,7920,200C7800,200,7680,200,7560,200C7440,200,7320,200,7200,200C7080,200,6960,200,6840,200C6720,200,6600,200,6480,200C6360,200,6240,200,6120,200C6000,200,5880,200,5760,200C5640,200,5520,200,5400,200C5280,200,5160,200,5040,200C4920,200,4800,200,4680,200C4560,200,4440,200,4320,200C4200,200,4080,200,3960,200C3840,200,3720,200,3600,200C3480,200,3360,200,3240,200C3120,200,3000,200,2880,200C2760,200,2640,200,2520,200C2400,200,2280,200,2160,200C2040,200,1920,200,1800,200C1680,200,1560,200,1440,200C1320,200,1200,200,1080,200C960,200,840,200,720,200C600,200,480,200,360,200C240,200,120,200,60,200L0,200Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="#0574bb" offset="0%"></stop><stop stop-color="#0574bb" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 50px);" fill="url(#sw-gradient-1)" d="M0,80L60,66.7C120,53,240,27,360,30C480,33,600,67,720,66.7C840,67,960,33,1080,46.7C1200,60,1320,120,1440,136.7C1560,153,1680,127,1800,120C1920,113,2040,127,2160,126.7C2280,127,2400,113,2520,116.7C2640,120,2760,140,2880,136.7C3000,133,3120,107,3240,93.3C3360,80,3480,80,3600,66.7C3720,53,3840,27,3960,20C4080,13,4200,27,4320,26.7C4440,27,4560,13,4680,23.3C4800,33,4920,67,5040,76.7C5160,87,5280,73,5400,83.3C5520,93,5640,127,5760,123.3C5880,120,6000,80,6120,83.3C6240,87,6360,133,6480,153.3C6600,173,6720,167,6840,166.7C6960,167,7080,173,7200,166.7C7320,160,7440,140,7560,113.3C7680,87,7800,53,7920,43.3C8040,33,8160,47,8280,43.3C8400,40,8520,20,8580,10L8640,0L8640,200L8580,200C8520,200,8400,200,8280,200C8160,200,8040,200,7920,200C7800,200,7680,200,7560,200C7440,200,7320,200,7200,200C7080,200,6960,200,6840,200C6720,200,6600,200,6480,200C6360,200,6240,200,6120,200C6000,200,5880,200,5760,200C5640,200,5520,200,5400,200C5280,200,5160,200,5040,200C4920,200,4800,200,4680,200C4560,200,4440,200,4320,200C4200,200,4080,200,3960,200C3840,200,3720,200,3600,200C3480,200,3360,200,3240,200C3120,200,3000,200,2880,200C2760,200,2640,200,2520,200C2400,200,2280,200,2160,200C2040,200,1920,200,1800,200C1680,200,1560,200,1440,200C1320,200,1200,200,1080,200C960,200,840,200,720,200C600,200,480,200,360,200C240,200,120,200,60,200L0,200Z"></path>
             </svg>
         </article>
+
         <article class="container-xxl">
             <div class="clints owl-carousel">
                 <div class="clints-items">
@@ -512,6 +575,8 @@
                 </div>
             </div>
         </article>
+
+        <!-- SVG ONDAS POSTERIOS UNIDO CON FOOTER -->
         <article class="comentarios-svg-bottom">
             <svg id="wave" style="transform:rotate(0deg); transition: 0.3s; margin-bottom: -1%; margin-top: -5%" viewBox="0 0 1440 200">
                 <defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(21, 91, 187, 1)" offset="0%"></stop><stop stop-color="rgba(246.213, 246.213, 246.213, 1)" offset="100%"></stop></linearGradient></defs><path fill="url(#sw-gradient-0)" d="M0,40L60,56.7C120,73,240,107,360,116.7C480,127,600,113,720,100C840,87,960,73,1080,83.3C1200,93,1320,127,1440,140C1560,153,1680,147,1800,150C1920,153,2040,167,2160,153.3C2280,140,2400,100,2520,100C2640,100,2760,140,2880,146.7C3000,153,3120,127,3240,123.3C3360,120,3480,140,3600,123.3C3720,107,3840,53,3960,40C4080,27,4200,53,4320,60C4440,67,4560,53,4680,40C4800,27,4920,13,5040,13.3C5160,13,5280,27,5400,30C5520,33,5640,27,5760,30C5880,33,6000,47,6120,73.3C6240,100,6360,140,6480,156.7C6600,173,6720,167,6840,146.7C6960,127,7080,93,7200,76.7C7320,60,7440,60,7560,70C7680,80,7800,100,7920,110C8040,120,8160,120,8280,113.3C8400,107,8520,93,8580,86.7L8640,80L8640,200L8580,200C8520,200,8400,200,8280,200C8160,200,8040,200,7920,200C7800,200,7680,200,7560,200C7440,200,7320,200,7200,200C7080,200,6960,200,6840,200C6720,200,6600,200,6480,200C6360,200,6240,200,6120,200C6000,200,5880,200,5760,200C5640,200,5520,200,5400,200C5280,200,5160,200,5040,200C4920,200,4800,200,4680,200C4560,200,4440,200,4320,200C4200,200,4080,200,3960,200C3840,200,3720,200,3600,200C3480,200,3360,200,3240,200C3120,200,3000,200,2880,200C2760,200,2640,200,2520,200C2400,200,2280,200,2160,200C2040,200,1920,200,1800,200C1680,200,1560,200,1440,200C1320,200,1200,200,1080,200C960,200,840,200,720,200C600,200,480,200,360,200C240,200,120,200,60,200L0,200Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(21, 91, 187, 1)" offset="0%"></stop><stop stop-color="rgba(21, 91, 187, 1)" offset="100%"></stop></linearGradient></defs><path style="opacity:1" fill="url(#sw-gradient-1)" d="M0,0L60,26.7C120,53,240,107,360,130C480,153,600,147,720,130C840,113,960,87,1080,80C1200,73,1320,87,1440,106.7C1560,127,1680,153,1800,136.7C1920,120,2040,60,2160,33.3C2280,7,2400,13,2520,23.3C2640,33,2760,47,2880,53.3C3000,60,3120,60,3240,50C3360,40,3480,20,3600,30C3720,40,3840,80,3960,100C4080,120,4200,120,4320,126.7C4440,133,4560,147,4680,130C4800,113,4920,67,5040,66.7C5160,67,5280,113,5400,136.7C5520,160,5640,160,5760,163.3C5880,167,6000,173,6120,176.7C6240,180,6360,180,6480,150C6600,120,6720,60,6840,46.7C6960,33,7080,67,7200,70C7320,73,7440,47,7560,30C7680,13,7800,7,7920,20C8040,33,8160,67,8280,86.7C8400,107,8520,113,8580,116.7L8640,120L8640,200L8580,200C8520,200,8400,200,8280,200C8160,200,8040,200,7920,200C7800,200,7680,200,7560,200C7440,200,7320,200,7200,200C7080,200,6960,200,6840,200C6720,200,6600,200,6480,200C6360,200,6240,200,6120,200C6000,200,5880,200,5760,200C5640,200,5520,200,5400,200C5280,200,5160,200,5040,200C4920,200,4800,200,4680,200C4560,200,4440,200,4320,200C4200,200,4080,200,3960,200C3840,200,3720,200,3600,200C3480,200,3360,200,3240,200C3120,200,3000,200,2880,200C2760,200,2640,200,2520,200C2400,200,2280,200,2160,200C2040,200,1920,200,1800,200C1680,200,1560,200,1440,200C1320,200,1200,200,1080,200C960,200,840,200,720,200C600,200,480,200,360,200C240,200,120,200,60,200L0,200Z"></path>
@@ -537,7 +602,7 @@
                     </ul>
                 </div>
                 <div class="col-md-5">
-                    <form action="">
+                    <form action="" class="footer-form">
                         <div class="text-center text-white mb-2">
                             <h3>Contactanos</h3>
                         </div>
@@ -551,7 +616,10 @@
                             <input type="text" class="form-control" placeholder="Asunto">
                         </div>
                         <div class="mb-2">
-                            <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Escribe tu mensaje aquí"></textarea>
+                            <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Escribe tu mensaje aquí"></textarea>
+                        </div>
+                        <div class="footer-button">
+                            <button>Enviar</button>
                         </div>
                     </form>
                 </div>
@@ -577,6 +645,19 @@
 		        1000:{ items:1 }
 		    }
 		});
+		$(`.categories`).owlCarousel({
+			loop:true,
+		    margin:0,
+		    nav:false,
+		    autoplay:true,
+		    autoplayTimeout:12000,
+		    autoplayHoverPause:false,
+		    responsive:{
+		        0:{ items:1 },
+		        500: { items: 3},
+		        1000:{ items:3 }
+		    }
+		});
 		$(`.offers`).owlCarousel({
 			loop:true,
 		    margin:0,
@@ -588,19 +669,6 @@
 		        0:{ items:1 },
 		        500: { items: 2},
 		        1000:{ items:4 }
-		    }
-		});
-		$(`.categories`).owlCarousel({
-			loop:true,
-		    margin:0,
-		    nav:false,
-		    autoplay:false,
-		    autoplayTimeout:10000,
-		    autoplayHoverPause:false,
-		    responsive:{
-		        0:{ items:1 },
-		        500: { items: 3},
-		        1000:{ items:6 }
 		    }
 		});
         $(`.clints`).owlCarousel({
