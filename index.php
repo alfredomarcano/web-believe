@@ -6,25 +6,20 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="owl-carousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="icons/font/bootstrap-icons.css">
-	<!-- <link rel="stylesheet" href="{{ asset('public/owlcarousel/owl.carousel.min.css') }}"> -->
+	<link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 </head>
 <body class="">
-	<header class="" style="">
+	<header class="">
     	<nav>
-    		<section class="container-xl d-flex justify-content-between align-items-center h-100">
+    		<section class="container-xxl d-flex justify-content-between align-items-center h-100">
                 <figure style="width: 150px;">
     			    <img src="img/logo.png" alt="" width="100%" height="100%">
                 </figure>
-    			<ul class="d-flex justify-content-around">
-    				<li>Hola Mundo</li>
-    				<li>Hola Mundo</li>
-    				<li>Hola Mundo</li>
-    			</ul>
+    			
     			<ul class="d-flex">
     				<li><i class="bi bi-geo-alt"></i></li>
     				<li><i class="bi bi-person-circle"></i></li>
@@ -32,46 +27,40 @@
     			</ul>
     		</section>
     	</nav>
-		<article class="header-img owl-carousel" style="z-index: -1;">
+		<article class="header-img owl-carousel">
 			<figure>
-				<img src="img/believe-1.jpg" alt="" width="100%" height="100%" style="width: 100%; height: 100%;" >
+				<img src="img/believe-1.jpg" alt="" width="100%" height="100%" class="w-100 h-100 obj-fit-cover" >
 			</figure>
 			<figure>
-				<img src="img/believe-2.jpg" alt="" width="100%" height="100%" style="width: 100%; height: 100%;" >
+				<img src="img/believe-2.jpg" alt="" width="100%" height="100%" class="w-100 h-100 obj-fit-cover" >
 			</figure>
 			<figure>
-				<img src="img/believe-5.jpg" alt="" width="100%" height="100%" style="width: 100%; height: 100%;" >
+				<img src="img/believe-5.jpg" alt="" width="100%" height="100%" class="w-100 h-100 obj-fit-cover" >
 			</figure>
 			<figure>
-				<img src="img/believe-6.jpg" alt="" width="100%" height="100%" style="width: 100%; height: 100%;" >
+				<img src="img/believe-6.jpg" alt="" width="100%" height="100%" class="w-100 h-100 obj-fit-cover" >
 			</figure>
 			<figure>
-				<img src="img/believe-7.jpg" alt="" width="100%" height="100%" style="width: 100%; height: 100%;" >
+				<img src="img/believe-7.jpg" alt="" width="100%" height="100%" class="w-100 h-100 obj-fit-cover" >
 			</figure>
-			<!-- <figure>
-				<img src="img/believe-9.jpg" alt="" width="100%" height="100%" style="width: 100%; height: 100%;" >
-			</figure> -->
 		</article>
-        <article style="margin-top: -4%">
+        <article style="margin-top: -5%; ">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 155.33"><defs><style>.cls-1{fill:#0381cb;}.cls-2{fill:#0574bb;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M1920,144.32s-707.77,11.49-944,11c-243.77-.51-976-15-976-15V59.55S224.64-78.61,1134.34,66c463.13,50.19,664.81,60.62,785.66,70.46Z"/><path class="cls-2" d="M0,155.32H1920V74.55S1695.36-63.61,785.66,81C322.53,131.15,120.85,130.47,0,140.32Z"/></g></g></svg>
         </article>
         
 	</header>
 
     <section class="Abouts">
-        <article class="container-xl text-white">
-            <p style="font-size: 1.4rem; width: 70%; margin:0 auto;">
+        <article class="container-xxl text-white">
+            <p>
                 Somos una Agencia de Viajes con más de 10 años de experiencia. Brindamos atención personalizada en las reservas de boletos aéreos, hoteles, renta de autos, vacaciones al Caribe, Europa y dentro de Estados Unidos.
             </p>
         </article>
     </section>
 
 	<section class="categori">
-        <article>
-            <svg viewBox="0 0 1440 320" style="background: white; margin-bottom: -12%; margin-top: -5% "><path fill="#f4f4f4" fill-opacity="1" d="M0,160L120,144C240,128,480,96,720,90.7C960,85,1200,107,1320,117.3L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
-        </article>
-        <article class="container-xl">
-            
+        <article class="categori-svg-top"></article>
+        <article class="container-xxl">
             <div class="categories owl-carousel">
                 <div class="category-items">
                     <figure>
@@ -105,136 +94,181 @@
                 </div>
             </div>
         </article>
+        <article class="categori-svg-bottom"></article>
     </section>
 
 	<section class="bestOffers">
-        <article class="container-xl">
-            <h1>Best Offers</h1>
+        <article class="container-xxl">
+            <div class="bestOffers-title">
+                <span>Best Offers</span>
+            </div>
             <div class="offers owl-carousel">
-                <div class="" style="margin:5px 15px; box-shadow:10px 10px 3px -4px #c4c4c4;">
-                    <figure style="width:100%; height:230px;">
-                        <img src="img/offers/offers-1.jpg" alt="" style="width:100%; height:100%; object-fit: cover">
+                <div class="offers-items">
+                    <figure>
+                        <img src="img/offers/offers-1.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                     </figure>
-                    <div style="background:white;">
-                        <h3>Title</h3>
-                        <ul class="d-flex justify-content-between">
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                        <span style="display:block">$550</span>
-                        <button>View Offerts</button>
+                    <div class="offers-data">
+                        <div class="offers-data-title">
+                            <h2>Title</h2>
+                        </div>
+                        <div class="offers-data-details">
+                            <ul>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Ipsa ad debitis veniam nostrum natus inventore.</p>
+                            <div class="offers-data-action">
+                                <span>$550</span>
+                                <button>View Offerts</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="" style="margin:5px 15px; box-shadow:10px 10px 3px -4px #c4c4c4;">
-                    <figure style="width:100%; height:230px;">
-                        <img src="img/offers/offers-2.jpg" alt="" style="width:100%; height:100%; object-fit: cover">
+                <div class="offers-items">
+                    <figure>
+                        <img src="img/offers/offers-2.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                     </figure>
-                    <div style="background:white;">
-                        <h3>Title</h3>
-                        <ul class="d-flex justify-content-between">
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                        <span style="display:block">$550</span>
-                        <button>View Offerts</button>
+                    <div class="offers-data">
+                        <div class="offers-data-title">
+                            <h2>Title</h2>
+                        </div>
+                        <div class="offers-data-details">
+                            <ul>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illo, soluta vitae omnis, maxime fuga?</p>
+                            <div class="offers-data-action">
+                                <span>$550</span>
+                                <button>View Offerts</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="" style="margin:5px 15px; box-shadow:10px 10px 3px -4px #c4c4c4;">
-                    <figure style="width:100%; height:230px;">
-                        <img src="img/offers/offers-3.jpg" alt="" style="width:100%; height:100%; object-fit: cover">
+                <div class="offers-items">
+                    <figure>
+                        <img src="img/offers/offers-3.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                     </figure>
-                    <div style="background:white;">
-                        <h3>Title</h3>
-                        <ul class="d-flex justify-content-between">
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                        <span style="display:block">$550</span>
-                        <button>View Offerts</button>
+                    <div class="offers-data">
+                        <div class="offers-data-title">
+                            <h2>Title</h2>
+                        </div>
+                        <div class="offers-data-details">
+                            <ul>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Sint non maiores autem nostrum unde est?</p>
+                            <div class="offers-data-action">
+                                <span>$550</span>
+                                <button>View Offerts</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="" style="margin:5px 15px; box-shadow:10px 10px 3px -4px #c4c4c4;">
-                    <figure style="width:100%; height:230px;">
-                        <img src="img/offers/offers-4.jpg" alt="" style="width:100%; height:100%; object-fit: cover">
+                <div class="offers-items">
+                    <figure>
+                        <img src="img/offers/offers-4.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                     </figure>
-                    <div style="background:white;">
-                        <h3>Title</h3>
-                        <ul class="d-flex justify-content-between">
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                        <span style="display:block">$550</span>
-                        <button>View Offerts</button>
+                    <div class="offers-data">
+                        <div class="offers-data-title">
+                            <h2>Title</h2>
+                        </div>
+                        <div class="offers-data-details">
+                            <ul>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Voluptatum ea nostrum totam, quasi laborum molestiae.</p>
+                            <div class="offers-data-action">
+                                <span>$550</span>
+                                <button>View Offerts</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="" style="margin:5px 15px; box-shadow:10px 10px 3px -4px #c4c4c4;">
-                    <figure style="width:100%; height:230px;">
-                        <img src="img/offers/offers-5.jpg" alt="" style="width:100%; height:100%; object-fit: cover">
+                <div class="offers-items">
+                    <figure>
+                        <img src="img/offers/offers-5.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                     </figure>
-                    <div style="background:white;">
-                        <h3>Title</h3>
-                        <ul class="d-flex justify-content-between">
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                        <span style="display:block">$550</span>
-                        <button>View Offerts</button>
+                    <div class="offers-data">
+                        <div class="offers-data-title">
+                            <h2>Title</h2>
+                        </div>
+                        <div class="offers-data-details">
+                            <ul>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo alias vel cumque, eveniet, dignissimos architecto?</p>
+                            <div class="offers-data-action">
+                                <span>$550</span>
+                                <button>View Offerts</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="" style="margin:5px 15px; box-shadow:10px 10px 3px -4px #c4c4c4;">
-                    <figure style="width:100%; height:230px;">
-                        <img src="img/offers/offers-6.jpg" alt="" style="width:100%; height:100%; object-fit: cover">
+                <div class="offers-items">
+                    <figure>
+                        <img src="img/offers/offers-6.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                     </figure>
-                    <div style="background:white;">
-                        <h3>Title</h3>
-                        <ul class="d-flex justify-content-between">
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                        <span style="display:block">$550</span>
-                        <button>View Offerts</button>
+                    <div class="offers-data">
+                        <div class="offers-data-title">
+                            <h2>Title</h2>
+                        </div>
+                        <div class="offers-data-details">
+                            <ul>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium minima, nihil dicta cum nobis eum.</p>
+                            <div class="offers-data-action">
+                                <span>$550</span>
+                                <button>View Offerts</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="" style="margin:5px 15px; box-shadow:10px 10px 3px -4px #c4c4c4;">
-                    <figure style="width:100%; height:230px;">
-                        <img src="img/offers/offers-7.jpg" alt="" style="width:100%; height:100%; object-fit: cover">
+                <div class="offers-items">
+                    <figure>
+                        <img src="img/offers/offers-7.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                     </figure>
-                    <div style="background:white;">
-                        <h3>Title</h3>
-                        <ul class="d-flex justify-content-between">
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                            <li><i class="bi bi-star"></i></li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                        <span style="display:block">$550</span>
-                        <button>View Offerts</button>
+                    <div class="offers-data">
+                        <div class="offers-data-title">
+                            <h2>Title</h2>
+                        </div>
+                        <div class="offers-data-details">
+                            <ul>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                                <li><i class="bi bi-star-fill"></i></li>
+                            </ul>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, libero. Ipsa quos, rem itaque odio!</p>
+                            <div class="offers-data-action">
+                                <span>$550</span>
+                                <button>View Offerts</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -250,7 +284,7 @@
     </section>
 
 	<section class="Destiny">
-		<article class="container-xl py-3">
+		<article class="container-xxl py-3">
 			<div class="row">
                 <div class="col-md-6">
                     <div class="Destiny-title">
@@ -263,36 +297,21 @@
                 </div>
                 <div class="col-md-6">
                     <div class="Destiny-items">
-                        <div class="">
-                            <figure style="box-shadow: 0px 0px 1px 2px white; height: 100%;">
-                                <img src="img/galery/galery-1.jpg" alt="" width="100%" height="100%" style="width: 100%; height: 100%; object-fit: cover;">
-                            </figure>
-                            <span></span>
-                        </div>
-                        <div class="">
-                            <figure style="box-shadow: 0px 0px 1px 2px white; height: 100%;">
-                                <img src="img/galery/galery-2.jpg" alt="" width="100%" height="100%" style="width: 100%; height: 100%; object-fit: cover;">
-                            </figure>
-                            <span></span>
-                        </div>
-                        <div class="">
-                            <figure style="box-shadow: 0px 0px 1px 2px white; height: 100%;">
-                                <img src="img/galery/galery-3.jpg" alt="" width="100%" height="100%" style="width: 100%; height: 100%; object-fit: cover;">
-                            </figure>
-                            <span></span>
-                        </div>
-                        <div class="">
-                            <figure style="box-shadow: 0px 0px 1px 2px white; height: 100%;">
-                                <img src="img/galery/galery-1.jpg" alt="" width="100%" height="100%" style="width: 100%; height: 100%; object-fit: cover;">
-                            </figure>
-                            <span></span>
-                        </div>
-                        <div class="">
-                            <figure style="box-shadow: 0px 0px 1px 2px white; height: 100%;">
-                                <img src="img/galery/galery-2.jpg" alt="" width="100%" height="100%" style="width: 100%; height: 100%; object-fit: cover;">
-                            </figure>
-                            <span></span>
-                        </div>
+                        <figure>
+                            <img src="img/galery/galery-1.jpg" alt="" width="100%" height="100%" class="w-100 h-100 obj-fit-cover">
+                        </figure>
+                        <figure>
+                            <img src="img/galery/galery-2.jpg" alt="" width="100%" height="100%" class="w-100 h-100 obj-fit-cover">
+                        </figure>
+                        <figure>
+                            <img src="img/galery/galery-3.jpg" alt="" width="100%" height="100%" class="w-100 h-100 obj-fit-cover">
+                        </figure>
+                        <figure>
+                            <img src="img/galery/galery-1.jpg" alt="" width="100%" height="100%" class="w-100 h-100 obj-fit-cover">
+                        </figure>
+                        <figure>
+                            <img src="img/galery/galery-2.jpg" alt="" width="100%" height="100%" class="w-100 h-100 obj-fit-cover">
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -300,53 +319,53 @@
 	</section>
 	
     <section class="galery">
-        <article class="container-xl">
+        <article class="container-xxl">
             <div class="row">
                 <div class="col-md-8">
                     <ul class='colap'>
                         <li>
                             <figure class="h-100">
-                                <img src="img/bb/img-1.jpg" alt="" class="w-100 h-100" style="object-fit: cover;">
+                                <img src="img/bb/img-1.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                             </figure>
                         </li>
                         <li>
                             <figure class="h-100">
-                                <img src="img/bb/img-2.jpg" alt="" class="w-100 h-100" style="object-fit: cover;">
+                                <img src="img/bb/img-2.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                             </figure>
                         </li>
                         <li>
                             <figure class="h-100">
-                                <img src="img/bb/img-3.jpg" alt="" class="w-100 h-100" style="object-fit: cover;">
+                                <img src="img/bb/img-3.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                             </figure>
                         </li>
                         <li>
                             <figure class="h-100">
-                                <img src="img/bb/img-2.jpg" alt="" class="w-100 h-100" style="object-fit: cover;">
+                                <img src="img/bb/img-2.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                             </figure>
                         </li>
                         <li>
                             <figure class="h-100">
-                                <img src="img/bb/img-4.jpg" alt="" class="w-100 h-100" style="object-fit: cover;">
+                                <img src="img/bb/img-4.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                             </figure>
                         </li>
                         <li>
                             <figure class="h-100">
-                                <img src="img/bb/img-1.jpg" alt="" class="w-100 h-100" style="object-fit: cover;">
+                                <img src="img/bb/img-1.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                             </figure>
                         </li>
                         <li>
                             <figure class="h-100">
-                                <img src="img/bb/img-2.jpg" alt="" class="w-100 h-100" style="object-fit: cover;">
+                                <img src="img/bb/img-2.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                             </figure>
                         </li>
                         <li>
                             <figure class="h-100">
-                                <img src="img/bb/img-3.jpg" alt="" class="w-100 h-100" style="object-fit: cover;">
+                                <img src="img/bb/img-3.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                             </figure>
                         </li>
                         <li>
                             <figure class="h-100">
-                                <img src="img/bb/img-4.jpg" alt="" class="w-100 h-100" style="object-fit: cover;">
+                                <img src="img/bb/img-4.jpg" alt="" class="w-100 h-100 obj-fit-cover">
                             </figure>
                         </li>
                     </ul>
@@ -354,7 +373,7 @@
                 <div class="col-md-4">
                     <div class="galery-title">
                         <span>Galería</span>
-                        <p>Los momentos mas importantes de tu vida puedes hacerlos realidad. Comparte con nosotros la manera de disfrutas tus vacaciones</p>
+                        <p>Los momentos mas importantes de tu vida puedes hacerlos realidad. </p><p> Comparte con nosotros la manera de disfrutas tus vacaciones</p>
                         <button>
                             <a href="">Ver mas</a>
                         </button>
@@ -370,121 +389,125 @@
                 <defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="#0574bb" offset="0%"></stop><stop stop-color="#f4f4f4" offset="100%"></stop></linearGradient></defs><path fill="url(#sw-gradient-0)" d="M0,100L60,96.7C120,93,240,87,360,83.3C480,80,600,80,720,70C840,60,960,40,1080,33.3C1200,27,1320,33,1440,40C1560,47,1680,53,1800,66.7C1920,80,2040,100,2160,120C2280,140,2400,160,2520,146.7C2640,133,2760,87,2880,83.3C3000,80,3120,120,3240,120C3360,120,3480,80,3600,60C3720,40,3840,40,3960,50C4080,60,4200,80,4320,80C4440,80,4560,60,4680,73.3C4800,87,4920,133,5040,143.3C5160,153,5280,127,5400,96.7C5520,67,5640,33,5760,33.3C5880,33,6000,67,6120,66.7C6240,67,6360,33,6480,40C6600,47,6720,93,6840,106.7C6960,120,7080,100,7200,106.7C7320,113,7440,147,7560,163.3C7680,180,7800,180,7920,180C8040,180,8160,180,8280,160C8400,140,8520,100,8580,80L8640,60L8640,200L8580,200C8520,200,8400,200,8280,200C8160,200,8040,200,7920,200C7800,200,7680,200,7560,200C7440,200,7320,200,7200,200C7080,200,6960,200,6840,200C6720,200,6600,200,6480,200C6360,200,6240,200,6120,200C6000,200,5880,200,5760,200C5640,200,5520,200,5400,200C5280,200,5160,200,5040,200C4920,200,4800,200,4680,200C4560,200,4440,200,4320,200C4200,200,4080,200,3960,200C3840,200,3720,200,3600,200C3480,200,3360,200,3240,200C3120,200,3000,200,2880,200C2760,200,2640,200,2520,200C2400,200,2280,200,2160,200C2040,200,1920,200,1800,200C1680,200,1560,200,1440,200C1320,200,1200,200,1080,200C960,200,840,200,720,200C600,200,480,200,360,200C240,200,120,200,60,200L0,200Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="#0574bb" offset="0%"></stop><stop stop-color="#0574bb" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 50px);" fill="url(#sw-gradient-1)" d="M0,80L60,66.7C120,53,240,27,360,30C480,33,600,67,720,66.7C840,67,960,33,1080,46.7C1200,60,1320,120,1440,136.7C1560,153,1680,127,1800,120C1920,113,2040,127,2160,126.7C2280,127,2400,113,2520,116.7C2640,120,2760,140,2880,136.7C3000,133,3120,107,3240,93.3C3360,80,3480,80,3600,66.7C3720,53,3840,27,3960,20C4080,13,4200,27,4320,26.7C4440,27,4560,13,4680,23.3C4800,33,4920,67,5040,76.7C5160,87,5280,73,5400,83.3C5520,93,5640,127,5760,123.3C5880,120,6000,80,6120,83.3C6240,87,6360,133,6480,153.3C6600,173,6720,167,6840,166.7C6960,167,7080,173,7200,166.7C7320,160,7440,140,7560,113.3C7680,87,7800,53,7920,43.3C8040,33,8160,47,8280,43.3C8400,40,8520,20,8580,10L8640,0L8640,200L8580,200C8520,200,8400,200,8280,200C8160,200,8040,200,7920,200C7800,200,7680,200,7560,200C7440,200,7320,200,7200,200C7080,200,6960,200,6840,200C6720,200,6600,200,6480,200C6360,200,6240,200,6120,200C6000,200,5880,200,5760,200C5640,200,5520,200,5400,200C5280,200,5160,200,5040,200C4920,200,4800,200,4680,200C4560,200,4440,200,4320,200C4200,200,4080,200,3960,200C3840,200,3720,200,3600,200C3480,200,3360,200,3240,200C3120,200,3000,200,2880,200C2760,200,2640,200,2520,200C2400,200,2280,200,2160,200C2040,200,1920,200,1800,200C1680,200,1560,200,1440,200C1320,200,1200,200,1080,200C960,200,840,200,720,200C600,200,480,200,360,200C240,200,120,200,60,200L0,200Z"></path>
             </svg>
         </article>
-        <article class="container-xl">
-          <!--   <div class="clints-title">
-                <span>Opiniones</span>
-            </div> -->
+        <article class="container-xxl">
             <div class="clints owl-carousel">
-                <div class="" style="display: flex; align-items: center; justify-content: center;">
-                    <figure style="width: 300px; height:250px; box-shadow:-9px -8px 6px -3px #25262722; background:white; margin:15px; border-radius:12px;padding:1px">
-                        <img src="img/opiniones/Perfil-1.jpg" alt="" style="width: 100%; height: 100%;object-fit:cover; border-radius:12px;">
+                <div class="clints-items">
+                    <figure>
+                        <img src="img/opiniones/Perfil-1.jpg" alt="">
                     </figure>
-                    <div style="background:white; padding:0.5rem 1rem; margin-left:-10%; margin-bottom:-20%; border-radius:12px">
-                        <h3>Name Person</h3>
-                        <ul class="d-flex p-0">
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
+                    <div class="clints-data">
+                        <span>Name Person</span>
+                        <ul>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, mollitia.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo distinctio, recusandae odit libero illo soluta rerum, alias. Nostrum ex eos quo cupiditate, ipsum reprehenderit impedit fugit aliquam repellat consequatur ullam.</p>
+                        <i class="bi bi-geo-alt"> Mexico</i>
                     </div>
                 </div>
-                <div class="" style="display: flex; align-items: center; justify-content: center;">
-                    <figure style="width: 300px; height:250px; box-shadow:-9px -8px 6px -3px #25262722; background:white; margin:15px; border-radius:12px;padding:1px">
-                        <img src="img/opiniones/Perfil-2.jpg" alt="" style="width: 100%; height: 100%;object-fit:cover; border-radius:12px;">
+                <div class="clints-items">
+                    <figure>
+                        <img src="img/opiniones/Perfil-2.jpg" alt="">
                     </figure>
-                    <div style="background:white; padding:0.5rem 1rem; margin-left:-10%; margin-bottom:-20%; border-radius:12px">
-                        <h3>Name Person</h3>
-                        <ul class="d-flex p-0">
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
+                    <div class="clints-data">
+                        <span>Name Person</span>
+                        <ul>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, mollitia.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nesciunt! Sunt provident sit cupiditate inventore dolorem veniam, dicta earum iure a aliquam autem, corporis, repudiandae sequi non, eveniet dolorum voluptate.</p>
+                        <i class="bi bi-geo-alt"> Curacao</i>
                     </div>
                 </div>
-                <div class="" style="display: flex; align-items: center; justify-content: center;">
-                    <figure style="width: 300px; height:250px; box-shadow:-9px -8px 6px -3px #25262722; background:white; margin:15px; border-radius:12px;padding:1px">
-                        <img src="img/opiniones/Perfil-3.jpg" alt="" style="width: 100%; height: 100%;object-fit:cover; border-radius:12px;">
+                <div class="clints-items">
+                    <figure>
+                        <img src="img/opiniones/Perfil-3.jpg" alt="">
                     </figure>
-                    <div style="background:white; padding:0.5rem 1rem; margin-left:-10%; margin-bottom:-20%; border-radius:12px">
-                        <h3>Name Person</h3>
-                        <ul class="d-flex p-0">
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
+                    <div class="clints-data">
+                        <span>Name Person</span>
+                        <ul>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, mollitia.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, perferendis. Porro laboriosam suscipit ducimus itaque. Molestiae, nulla sapiente corrupti quod dolores laudantium delectus incidunt rerum harum dolorem quia dignissimos nobis.</p>
+                        <i class="bi bi-geo-alt"> Paris</i>
                     </div>
                 </div>
-                <div class="" style="display: flex; align-items: center; justify-content: center;">
-                    <figure style="width: 300px; height:250px; box-shadow:-9px -8px 6px -3px #25262722; background:white; margin:15px; border-radius:12px;padding:1px">
-                        <img src="img/opiniones/Perfil-4.jpg" alt="" style="width: 100%; height: 100%;object-fit:cover; border-radius:12px;">
+                <div class="clints-items">
+                    <figure>
+                        <img src="img/opiniones/Perfil-4.jpg" alt="">
                     </figure>
-                    <div style="background:white; padding:0.5rem 1rem; margin-left:-10%; margin-bottom:-20%; border-radius:12px">
-                        <h3>Name Person</h3>
-                        <ul class="d-flex p-0">
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
+                    <div class="clints-data">
+                        <span>Name Person</span>
+                        <ul>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, mollitia.</p>
+                        <p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Iure doloremque itaque, velit repellendus quibusdam omnis delectus, suscipit dolorum. Eos voluptas perspiciatis, atque ipsam maiores hic corporis nostrum sapiente saepe, soluta.</p>
+                        <i class="bi bi-geo-alt"> Cancun</i>
                     </div>
                 </div>
-                <div class="" style="display: flex; align-items: center; justify-content: center;">
-                    <figure style="width: 300px; height:250px; box-shadow:-9px -8px 6px -3px #25262722; background:white; margin:15px; border-radius:12px;padding:1px">
-                        <img src="img/opiniones/Perfil-5.jpg" alt="" style="width: 100%; height: 100%;object-fit:cover; border-radius:12px;">
+                <div class="clints-items">
+                    <figure>
+                        <img src="img/opiniones/Perfil-5.jpg" alt="">
                     </figure>
-                    <div style="background:white; padding:0.5rem 1rem; margin-left:-10%; margin-bottom:-20%; border-radius:12px">
-                        <h3>Name Person</h3>
-                        <ul class="d-flex p-0">
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
+                    <div class="clints-data">
+                        <span>Name Person</span>
+                        <ul>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, mollitia.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Distinctio odit repellat commodi animi modi, laudantium officia harum. Eaque nesciunt aliquam fugit magni iure, saepe iste corporis nam voluptatibus amet impedit.</p>
+                        <i class="bi bi-geo-alt"> Cuba</i>
                     </div>
                 </div>
-                <div class="" style="display: flex; align-items: center; justify-content: center;">
-                    <figure style="width: 300px; height:250px; box-shadow:-9px -8px 6px -3px #25262722; background:white; margin:15px; border-radius:12px;padding:1px">
-                        <img src="img/opiniones/Perfil-6.jpg" alt="" style="width: 100%; height: 100%;object-fit:cover; border-radius:12px;">
+                <div class="clints-items">
+                    <figure>
+                        <img src="img/opiniones/Perfil-6.jpg" alt="">
                     </figure>
-                    <div style="background:white; padding:0.5rem 1rem; margin-left:-10%; margin-bottom:-20%; border-radius:12px">
-                        <h3>Name Person</h3>
-                        <ul class="d-flex p-0">
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
+                    <div class="clints-data">
+                        <span>Name Person</span>
+                        <ul>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, mollitia.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum tenetur sapiente ad accusantium dolor fugit assumenda, libero. Odit magnam inventore deserunt nam accusamus doloribus adipisci excepturi provident. Alias, accusantium, quae?</p>
+                        <i class="bi bi-geo-alt"> Miami</i>
                     </div>
                 </div>
-                <div class="" style="display: flex; align-items: center; justify-content: center;">
-                    <figure style="width: 300px; height:250px; box-shadow:-9px -8px 6px -3px #25262722; background:white; margin:15px; border-radius:12px;padding:1px">
-                        <img src="img/opiniones/Perfil-7.jpg" alt="" style="width: 100%; height: 100%;object-fit:cover; border-radius:12px;">
+                <div class="clints-items">
+                    <figure>
+                        <img src="img/opiniones/Perfil-7.jpg" alt="">
                     </figure>
-                    <div style="background:white; padding:0.5rem 1rem; margin-left:-10%; margin-bottom:-20%; border-radius:12px">
-                        <h3>Name Person</h3>
-                        <ul class="d-flex p-0">
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
-                            <li class="pe-2"><i class="bi bi-star"></i></li>
+                    <div class="clints-data">
+                        <span>Name Person</span>
+                        <ul>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, mollitia.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, corporis cum eum nemo dolor eos hic reiciendis exercitationem qui, doloribus unde optio modi voluptates labore vitae tenetur dignissimos impedit praesentium.</p>
+                        <i class="bi bi-geo-alt"> Las Vegas</i>
                     </div>
                 </div>
             </div>
@@ -497,7 +520,7 @@
     </section>
 
     <footer>
-		<div class="container-xl">
+		<div class="container-xxl">
             <div class="row justify-content-between">
                 <div class="col-md-4 text-white">
                     <figure class="pb-2">
@@ -541,7 +564,6 @@
 	</footer>
 
 	<script type="text/javascript" src="owl-carousel/owl.carousel.min.js"></script>
-	<!-- <script type="text/javascript" src="{{ asset('public/owlcarousel/owl.carousel.min.js') }}"></script> -->
 	<script type="text/javascript">
 		$(`.header-img`).owlCarousel({
 			loop:true,
@@ -565,7 +587,7 @@
 		    responsive:{
 		        0:{ items:1 },
 		        500: { items: 2},
-		        1000:{ items:3 }
+		        1000:{ items:4 }
 		    }
 		});
 		$(`.categories`).owlCarousel({
