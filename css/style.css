@@ -272,9 +272,12 @@ header{
         }
 
     .offers-items{
-        margin:10px 15px; border-radius:8px;
+        margin:10px 15px; 
+        border-radius:8px;
         box-shadow:6px 6px 10px -4px #252627d4;    
+        background: #0574bb;
     }
+
 
         .offers.owl-carousel .owl-dots{
             position: absolute;
@@ -294,7 +297,6 @@ header{
             width: 100%;
             height: 350px;
             padding: 6px;
-            background: #0574bb;
             border-radius: 6px;
         }
             .offers-items figure img{
@@ -309,31 +311,30 @@ header{
             margin-top: -20%;
         }
 
-    .offers-data{
-        background:#0574bb; 
-        color:white; 
-        border-radius: 0 0 8px 8px; 
-        min-height: 20vh; 
-    }
-
-        .offers-data-details{
-            padding: 1.25rem;
+        .offers-data{
+            color:white; 
+            border-radius: 0 0 8px 8px; 
+            min-height: 20vh; 
         }
-            .offers-data-details ul{
-                display: flex;
-                padding-left:0;
-                margin-bottom: 0.25rem;
-            }
 
-                .offers-data-details ul li{
-                    padding-right: 0.2rem;
-                    color:#fbba12;
+            .offers-data-details{
+                padding: 1.25rem;
+            }
+                .offers-data-details ul{
+                    display: flex;
+                    padding-left:0;
+                    margin-bottom: 0.25rem;
                 }
 
-            .offers-data-details p{
-                font-size: 14px;
-                margin-bottom: 0.3rem;
-            }
+                    .offers-data-details ul li{
+                        padding-right: 0.2rem;
+                        color:#fbba12;
+                    }
+
+                .offers-data-details p{
+                    font-size: 14px;
+                    margin-bottom: 0.3rem;
+                }
 
             .offers-data-action{
                 display: flex;
@@ -352,6 +353,17 @@ header{
                     border:none;
                     border-radius:6px;
                 }
+
+    .offers-items:hover{
+        cursor: pointer;
+        transition: 0.5s ease-out;
+        background: #2b6f8c
+    }
+        .offers-items:hover .offers-data-action button{
+            background: #fbba12;
+            transition: 0.5s ease-out;
+            text-shadow: 2px 2px 2px #252627;
+        }
 
 
 .Destiny{
