@@ -331,7 +331,7 @@
         </article>
 
         <!-- SVG ONDAS POSTERIOR UNIDO CON DESTINOS -->
-        <article>
+        <article class="">
             <svg style="margin-top:-30px" viewBox="0 0 1440 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                     <linearGradient id="sw-gradient" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(246, 150, 34, 1)" offset="0%"></stop><stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop></linearGradient>
@@ -347,7 +347,7 @@
 			<div class="row">
                 <div class="col-md-6">
                     <div class="Destiny-title">
-                        <span>Best Destiny</span>
+                        <span>Destinos</span>
                         <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Repellat, exercitationem, nobis. Voluptates recusandae provident esse numquam commodi ut ratione deleniti exercitationem animi fugiat. Ullam, sapiente quas dolores, quaerat placeat quos.</p>
                         <button>
                             <a href="" class="text-white">Contactanos</a>

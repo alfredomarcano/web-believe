@@ -133,19 +133,27 @@ header{
         transform: translate(-6%, -50%);
     }
         .categories.owl-carousel .owl-nav button.owl-next{
-            background: #f7a644;
+            background: transparent;
             border-radius: 0 2rem 2rem 0rem;
             padding: 10px;
             border: 0;
-            color: white;
+            color: #f7a644;
+            font-weight: bold;
+            font-size: 2rem
         }
         .categories.owl-carousel .owl-nav button.owl-prev{
-            background: #f7a644;
+            background: transparent;
             border-radius: 2rem 0 0rem 2rem;
             padding: 10px;
             border: 0;
-            color: white;
+            color: #f7a644;
+            font-weight: bold;
+            font-size: 2rem
         }
+            .categories.owl-carousel .owl-nav button.owl-prev:hover, .categories.owl-carousel .owl-nav button.owl-next:hover{
+                transition-duration: 1s;
+                transform: scale(1.3, 1.3);
+            }
 
     .categori-title span{
         font-size: 5rem;
@@ -358,10 +366,11 @@ header{
         .Destiny-title span{
             font-size: 5rem;
             text-align: center;
+            display: block;
         }
 
         .Destiny-title p{
-            padding-top: 8%;
+            padding-top: 4%;
             font-size: 1.4rem;
             line-height: 1.7
         }
@@ -544,7 +553,9 @@ header{
         position: absolute;
         bottom: 5%;
         left: 50%;
-        transform: translate(-50%, 5%);
+        transform: translate(-50%, -5%);
+        width: 100%;
+        text-align: center;
     }
 
         .clints.owl-carousel button.owl-dot{
@@ -601,9 +612,18 @@ footer{
     }
 
 @media screen and (max-width: 720px){
-    header{
-        height: 100%;
-    }
+    header{ height: 100%; }
+
+        nav{
+            background: #f4f4f4;
+            box-shadow: 0px 0px 3px 1px #25262788;
+        }
+
+            .header-img{ margin-top:60px; }
+            
+            .header-img figure{ height: 100%; }
+
+            nav .bi{color: #0574bb }
 
     .Abouts{
         clip-path: polygon(0px 0px, 50% 5.30%, 100% 0px, 100% 90%, 50% 100%, 0% 90%);
@@ -628,18 +648,61 @@ footer{
             padding: 1rem;
         }
 
-    .offers-data-title{
-        margin-top: -15%;
+    .categori .row{flex-wrap: wrap-reverse;}
+
+        .categori-title span{ text-align: center; }
+
+        .categori-text ul{ font-size: 1.2rem }
+
+    .offers-data-title{ margin-top: -15%; }
+
+        .offers.owl-carousel .owl-dots{
+            width: 100%;
+            text-align: center;
+            bottom: -10%;
+            transform: translate(-50%, -10%);
+        }
+
+    .bestOffers-title p{ width: 100%; }
+
+    .Destiny-title button{ width: 70%; }
+
+    .colap li { min-height: 100px; }
+
+    .categori-svg-top{
+        margin-top: -80px;
     }
 
-    .header-img figure{
-        height: 100%;
-    }
-    .categories.owl-carousel .owl-nav{
-        display: block;
-    }
+    .categories.owl-carousel .owl-nav{ 
+        width: 126%;
+        transform: translate(-11%, -50%);
+     }
+
+    .clints-items{ flex-direction: column; }
+
+        .clints-data{
+            width: 100%;
+            margin-left: 0;
+            padding: 2rem 1rem 1rem;
+            margin-bottom: 0;
+            margin-top: -40px;
+        }
+
+        .clints-data span, .clints-data i{
+            display: block;
+            text-align: center;
+        }
+
+        .clints-data ul{ justify-content: center; }
+
+        .clints-data p{ margin: 0.6rem 0; }
+
     footer{
         padding: 2rem 0 1rem;
     }
+
+        .footer-redes{ justify-content: center; }
+
+        .footer-redes li{ padding: 0 1.5rem; }
 }
 
