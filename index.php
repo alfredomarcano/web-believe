@@ -13,7 +13,7 @@
 	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 </head>
 <body class="">
-	<header class="">
+	<header class="Header">
     	<nav>
     		<section class="container-xxl d-flex justify-content-between align-items-center h-100">
                 <figure style="width: 150px;">
@@ -23,7 +23,7 @@
     			<ul class="d-flex">
     				<li><i class="bi bi-geo-alt"></i></li>
     				<li><i class="bi bi-person-circle"></i></li>
-    				<li><i class="bi bi-list"></i></li>
+    				<a href="javascript:void(0)"><li><i class="bi bi-list"></i></li></a>
     			</ul>
     		</section>
     	</nav>
@@ -584,6 +584,7 @@
         </article>
     </section>
 
+    <!-- SECCION DE FOOTER -->
     <footer>
 		<div class="container-xxl">
             <div class="row justify-content-between">
