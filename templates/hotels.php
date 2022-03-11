@@ -28,64 +28,60 @@
     		</section>
     	</nav>
     	<article class="container-xxl">
-    		<div style="z-index: 1; position: relative; padding-top: 15vh;">
+    		<div class="panel-template">
 	    		<div class="row">
 	    			<div class="col-md-7">
-	    				<form action="" style="background: #fff; height: 100%;">
+	    				<form action="" style="background: #ffffff66; padding: 1.5rem; border-radius: 12px">
 	    					<!-- <form action="{{ route('hotels.store') }}" class="from-contact" method="POST">
 							@csrf -->
-							<h2>Enter your Information</h2>
+							<h2>Ingresa tu Información</h2>
 
 							<input type="hidden" name="Tiposervicio" value="Hotels">
 
-							<div class="formulario-contact">
-								<div class="col col-md-12">
-									<label class="form-control-contact form-control d-block"> Name
+							<div class="row">
+								<div class="col-md-6 mb-3">
+									<label class="form-control-contact d-block"> Name
 										<input type="text" class="form-control" name="name" required="required" maxlength="40">
 									</label>
 								</div>
-							</div>
 							
-							<div class="formulario-contact">
-								<div class="col col-md-12">
-									<label class="form-control-contact form-control d-block"> Phone
+								<div class="col-md-6 mb-3">
+									<label class="form-control-contact d-block"> Phone
 										<input type="tel" class="form-control" name="phone" required="required" maxlength="10">
 									</label>
 								</div>
 							</div>
 
-							<div class="formulario-contact">
-								<div class="col col-md-12">
-									<label class="form-control-contact form-control d-block"> Email
+							<div class="row">
+								<div class="col-md-7 mb-3">
+									<label class="form-control-contact d-block"> Email
 										<input type="email" class="form-control" name="email" required="required" maxlength="100">
 									</label>
 								</div>
-							</div>
-
-							<div class="formulario-contact">
-								<div class="col col-md-12">
-									<label class="form-control-contact form-control d-block">City or Hotel
+							
+								<div class="col-md-5 mb-3">
+									<label class="form-control-contact d-block">City or Hotel
 										<input type="text" name="cityhotel" id="city" class="form-control"/>
 									</label>
 								</div>
 							</div>
 
-							<div class="formulario-contact">
-								<div class="col col-md-6">
-									<label class="form-control-contact form-control d-block">Check in
+							<div class="row">
+								<div class="col-md-6 mb-3">
+									<label class="form-control-contact d-block">Check in
 										<input type="date" name="checkin" id="checkin" class="form-control"/>
 									</label>
 								</div>
-								<div class="col col-md-6">
-									<label class="form-control-contact form-control d-block">Check out
+								<div class="col-md-6 mb-3">
+									<label class="form-control-contact d-block">Check out
 										<input type="date" name="checkout" id="checkout" class="form-control"/>
 									</label>
 								</div>
 							</div>
 
-							<div class="formulario-contact">
-								<div class="col col-md-4">
-									<label class="form-control-contact form-control d-block">Adults
+							<div class="row mb-3">
+								<div class="col-md-4 mb-3">
+									<label class="form-control-contact d-block">Adults
 										<select name="adults" id="adults" class="form-control form-control-select">
 											<option value="">Choose Quantity</option>
 											<option value="2">2</option>
@@ -110,8 +106,8 @@
 										</select>
 									</label>
 								</div>
-								<div class="col col-md-4">
-									<label class="form-control-contact form-control d-block">Child
+								<div class="col-md-4 mb-3">
+									<label class="form-control-contact d-block">Child
 										<select name="childs" id="childs" class="form-control form-control-select">
 											<option value="">Choose Quantity</option>
 											<option value="1">1</option>
@@ -137,8 +133,8 @@
 										</select>
 									</label>
 								</div>
-								<div class="col col-md-4">
-									<label class="form-control-contact form-control d-block">Age
+								<div class="col-md-4 mb-3">
+									<label class="form-control-contact d-block">Age
 										<select name="age" id="age" class="form-control form-control-select">
 											<option value="">Choose Age</option>
 											<option value="1">1</option>
@@ -191,7 +187,7 @@
 	    		</div>
     		</div>
     	</article>
-    	<svg viewBox="0 0 1440 490" style="margin-top: -500px; position: absolute;"><path fill="#0574bb" d="M0,441L80,392C160,343,320,245,480,236.8C640,229,800,310,960,302.2C1120,294,1280,196,1440,130.7C1600,65,1760,33,1920,89.8C2080,147,2240,294,2400,310.3C2560,327,2720,212,2880,155.2C5440,180,5600,163,5760,196C5920,429,6080,210,6240,490L11440,490C320,490,160,490,130,490L0,490Z"></path></svg>
+    	<svg viewBox="0 0 1440 490" style="bottom: 0; position: absolute;"><path fill="#0574bb" d="M0,441L80,392C160,343,320,245,480,236.8C640,229,800,310,960,302.2C1120,294,1280,196,1440,130.7C1600,65,1760,33,1920,89.8C2080,147,2240,294,2400,310.3C2560,327,2720,212,2880,155.2C5440,180,5600,163,5760,196C5920,429,6080,210,6240,490L11440,490C320,490,160,490,130,490L0,490Z"></path></svg>
 	</header>
 	<footer>
 		<div class="container-xxl">

@@ -65,34 +65,46 @@
                 <div class="col-md-7 px-5">
                     <div class="categories owl-carousel">
                         <div class="category-items">
-                            <figure>
-                                <img src="img/services/hoteles.jpg" alt="" class="w-100 h-100">
-                            </figure>
+                            <a href="templates/hotels.php">
+                                <figure>
+                                    <img src="img/services/hoteles.jpg" alt="" class="w-100 h-100">
+                                </figure>
+                            </a>
                         </div>
                         <div class="category-items">
-                            <figure>
-                                <img src="img/services/pasaporte.jpg" alt="" class="w-100 h-100">
-                            </figure>
+                            <a href="#">
+                                <figure>
+                                    <img src="img/services/pasaporte.jpg" alt="" class="w-100 h-100">
+                                </figure>
+                            </a>
                         </div>
                         <div class="category-items">
-                            <figure>
-                                <img src="img/services/renta-car.jpg" alt="" class="w-100 h-100">
-                            </figure>
+                            <a href="#">
+                                <figure>
+                                    <img src="img/services/renta-car.jpg" alt="" class="w-100 h-100">
+                                </figure>
+                            </a>
                         </div>
                         <div class="category-items">
-                            <figure>
-                                <img src="img/services/vacaciones.jpg" alt="" class="w-100 h-100">
-                            </figure>
+                            <a href="#">
+                                <figure>
+                                    <img src="img/services/vacaciones.jpg" alt="" class="w-100 h-100">
+                                </figure>
+                            </a>
                         </div>
                         <div class="category-items">
-                            <figure>
-                                <img src="img/services/vuelos.jpg" alt="" class="w-100 h-100">
-                            </figure>
+                            <a href="#">
+                                <figure>
+                                    <img src="img/services/vuelos.jpg" alt="" class="w-100 h-100">
+                                </figure>
+                            </a>
                         </div>
                         <div class="category-items">
-                            <figure>
-                                <img src="img/services/cruceros.jpg" alt="" class="w-100 h-100">
-                            </figure>
+                            <a href="#">
+                                <figure>
+                                    <img src="img/services/cruceros.jpg" alt="" class="w-100 h-100">
+                                </figure>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -755,6 +755,12 @@
     position: relative;
 }
 
+    .panel-template{
+        padding-top: 15vh;
+        z-index: 1; 
+        position: relative; 
+    }
+
     .Hotels-items{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -786,3 +792,43 @@
             grid-column: 2 / 3;
             grid-row:4 / 5; 
         }
+
+        .form-control-contact{
+            display: block;
+            width: 100%;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 0.25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+
+        .form-control-button{
+            display: block;
+            text-align: center;
+        }
+            .form-control-button button{
+                padding: 4px 70px 6px;
+                border: none;
+                border-radius: 8px;
+                background: #f6941f;
+                color: white;
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+
+        /*---------------- Inicio Media Query ------------------------*/
+            @media screen and (max-width: 720px){
+                .panel-template{
+                    padding-top: 7vh;
+                }
+            }
+        /*---------------- Final Media Query ------------------------*/
