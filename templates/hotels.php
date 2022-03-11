@@ -17,7 +17,9 @@
     	<nav>
     		<section class="container-xxl d-flex justify-content-between align-items-center h-100">
                 <figure style="width: 150px;">
-    			    <img src="../img/logo.png" alt="" width="100%" height="100%">
+                	<a href="../index.php">
+    			    	<img src="../img/logo.png" alt="" width="100%" height="100%">
+                	</a>
                 </figure>
     			
     			<ul class="d-flex">
@@ -27,14 +29,16 @@
     			</ul>
     		</section>
     	</nav>
+    </header>
+    <section class="section-content">
     	<article class="container-xxl">
     		<div class="panel-template">
 	    		<div class="row">
 	    			<div class="col-md-7">
-	    				<form action="" style="background: #ffffff66; padding: 1.5rem; border-radius: 12px">
+						<h1 class="text-center mb-3">Ingrese Información</h1>
+	    				<form action="" class="form-hotels">
 	    					<!-- <form action="{{ route('hotels.store') }}" class="from-contact" method="POST">
 							@csrf -->
-							<h2>Ingresa tu Información</h2>
 
 							<input type="hidden" name="Tiposervicio" value="Hotels">
 
@@ -165,7 +169,6 @@
 	    				</form>
 	    			</div>
 	    			<div class="col-md-5">
-	    				<h1 class="text-center">Gestiona tu Cita</h1>
 	    				<div class="Hotels-items">
 	                        <figure>
 	                            <img src="../img/galery/galery-1.jpg" alt="" width="100%" height="100%" class="w-100 h-100 obj-fit-cover">
@@ -188,52 +191,7 @@
     		</div>
     	</article>
     	<svg viewBox="0 0 1440 490" style="bottom: 0; position: absolute;"><path fill="#0574bb" d="M0,441L80,392C160,343,320,245,480,236.8C640,229,800,310,960,302.2C1120,294,1280,196,1440,130.7C1600,65,1760,33,1920,89.8C2080,147,2240,294,2400,310.3C2560,327,2720,212,2880,155.2C5440,180,5600,163,5760,196C5920,429,6080,210,6240,490L11440,490C320,490,160,490,130,490L0,490Z"></path></svg>
-	</header>
-	<footer>
-		<div class="container-xxl">
-            <div class="row justify-content-between">
-                <div class="col-md-4 text-white">
-                    <figure class="pb-2">
-                        <img src="../img/logo.png" alt="" class="w-100 h-100">
-                    </figure>
-                    <p style="font-size: 1.2rem;">Somos tu mejor elección a la hora de viajar, ven a disfrutar de tus vacaciones con toda seguridad</p>
-                    <ul class="ps-0">
-                        <li><a href="tel:+17025121453" class="text-white"><i class="bi bi-whatsapp"></i> +1 702 512 1453</a></li>
-                    </ul>
-                    <ul class="d-flex footer-redes">
-                        <li><a href="https://www.facebook.com/believecuba"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com/believecuba"><i class="bi bi-instagram"></i></a></li>
-                        <li><a href="https://www.twitter.com/believecuba"><i class="bi bi-twitter"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-5">
-                    <form action="" class="footer-form">
-                        <div class="text-center text-white mb-2">
-                            <h3>Contactanos</h3>
-                        </div>
-                        <div class="mb-2">
-                            <input type="text" class="form-control" placeholder="Ingresa tu nombre">
-                        </div>
-                        <div class="mb-2">
-                            <input type="text" class="form-control" placeholder="Tu email">
-                        </div>
-                        <div class="mb-2">
-                            <input type="text" class="form-control" placeholder="Asunto">
-                        </div>
-                        <div class="mb-2">
-                            <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Escribe tu mensaje aquí"></textarea>
-                        </div>
-                        <div class="footer-button">
-                            <button>Enviar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="d-flex justify-content-center align-items-center copyright">
-            <span>© Copyright 2021 BelieveCuba</span>
-        </div>
-	</footer>
+	</section>
+	<?php include('../footer.php'); ?>
 </body>
 </html>
