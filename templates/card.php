@@ -43,28 +43,43 @@
 	    					<?php for ($i=0; $i < 15; $i++) { ?>
 	    					<div id="$i" class="car-item">
 	    						<figure>
-	    							<img src="../img/car/095858210624marca.png" alt="" width="100%" height="100%">
+	    							<img src="../img/car/png/car-2.png" alt="" width="100%" height="100%">
 	    						</figure>
 	    						<div class="car-atr">
+	    							<h6>Marca Vehiculo</h6>
 	    							<h3>Car Title</h3>
 	    							<ul>
 	    								<li>
+	    									<span>Manual</span>
 	    									<img src="../img/car/icons/icons-1.png" alt="" width="100%" height="100%">
 	    								</li>
 	    								<li>
+	    									<span>4 Per</span>
 	    									<img src="../img/car/icons/icons-2.png" alt="" width="100%" height="100%">
 	    								</li>
 	    								<li>
+	    									<span>4 Puertas</span>
 	    									<img src="../img/car/icons/icons-3.png" alt="" width="100%" height="100%">
 	    								</li>
 	    								<li>
+	    									<span>60 Ltros</span>
 	    									<img src="../img/car/icons/icons-4.png" alt="" width="100%" height="100%">
 	    								</li>
 	    							</ul>
 	    						</div>
-	    						<div class="car-button">
-	    							<button>Reservar</button>
-	    						</div>
+	    						<ul class="car-button">
+	    							<li>
+	    								<h6>$15</h6>
+	    								<span>Hour</span>
+	    							</li>
+	    							<li>
+	    								<h6>$85</h6>
+	    								<span>Full Day</span>
+	    							</li>
+	    							<li>
+	    								<button>Reserva</button>
+	    							</li>
+	    						</ul>
 	    					</div>
 	    					<?php } ?>
 	    				</div>
